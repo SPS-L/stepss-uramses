@@ -1,7 +1,7 @@
 kit_dir          modules_wg
-ramses_tag       v3.81
-ramses_commit    3d133cbe36e52261719c16b15764548b0b453543
-built_utc        2026-08-22T09:42:52Z
+ramses_tag       v3.82
+ramses_commit    24742905475e5b2829975f8409f831027fabc465
+built_utc        2026-09-22T20:14:10Z
 runner_image     windows-latest (MSYS2 MINGW64)
 compiler         GNU Fortran (Rev5, Built by MSYS2 project) 16.1.0
 target           x86_64-w64-mingw32

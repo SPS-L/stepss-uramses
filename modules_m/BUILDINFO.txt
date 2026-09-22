@@ -1,13 +1,13 @@
 kit_dir          modules_m
-ramses_tag       v3.81
-ramses_commit    3d133cbe36e52261719c16b15764548b0b453543
-built_utc        2026-08-22T09:41:34Z
+ramses_tag       v3.82
+ramses_commit    24742905475e5b2829975f8409f831027fabc465
+built_utc        2026-09-22T20:13:23Z
 runner_image     macos-15 (arm64)
-compiler         GNU Fortran (Homebrew GCC 16.1.0) 16.1.0
+compiler         GNU Fortran (Homebrew GCC 16.2.0) 16.2.0
 target           aarch64-apple-darwin24
 mod_abi_version  16
 fflags           -O2 -cpp -fopenmp -fimplicit-none -ffree-line-length-none -ffree-form -W -g -fPIC -DDLL
 ldflags          -fopenmp
 blas             OpenBLAS 0.3.34
-runtime_floor    macOS 15.7.7 arm64; needs brew install gcc openblas
+runtime_floor    macOS 15.7.9 arm64; needs brew install gcc openblas
 consume_with     build/Makefile.macos
