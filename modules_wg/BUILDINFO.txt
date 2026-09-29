@@ -1,13 +1,13 @@
 kit_dir          modules_wg
-ramses_tag       v3.82
-ramses_commit    24742905475e5b2829975f8409f831027fabc465
-built_utc        2026-09-22T20:14:10Z
+ramses_tag       v3.83
+ramses_commit    f521717e8ba08565b114aee855b6c7a19c4042fa
+built_utc        2026-09-29T14:29:24Z
 runner_image     windows-latest (MSYS2 MINGW64)
-compiler         GNU Fortran (Rev5, Built by MSYS2 project) 16.1.0
+compiler         GNU Fortran (Rev4, Built by MSYS2 project) 16.2.0
 target           x86_64-w64-mingw32
 mod_abi_version  16
 fflags           -O2 -cpp -fopenmp -fimplicit-none -ffree-line-length-none -ffree-form -W -g -fPIC -DDLL
 ldflags          -fopenmp -static
-blas             mingw-w64-x86_64-openblas 0.3.33-3
+blas             mingw-w64-x86_64-openblas 0.3.34-1
 runtime_floor    static - self-contained, no MSYS2 runtime required
 consume_with     build/Makefile.windows
