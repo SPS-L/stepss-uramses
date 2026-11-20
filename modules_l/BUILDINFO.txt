@@ -1,7 +1,7 @@
 kit_dir          modules_l
-ramses_tag       v3.84
-ramses_commit    0657cb1831246bab9b9b26e8b0b005ec77d87b8b
-built_utc        2026-11-09T19:50:39Z
+ramses_tag       v3.85
+ramses_commit    ca393a83c8c7a861055841ac68c91b59cfc62235
+built_utc        2026-11-20T11:28:26Z
 runner_image     ubuntu-24.04
 compiler         GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
 target           x86_64-linux-gnu
@@ -9,5 +9,5 @@ mod_abi_version  15
 fflags           -O2 -cpp -fopenmp -fimplicit-none -ffree-line-length-none -ffree-form -W -g -fPIC -DDLL
 ldflags          -fopenmp
 blas             OpenBLAS 0.3.26+ds-1ubuntu0.1
-runtime_floor    ldd (Ubuntu GLIBC 2.39-0ubuntu8.9) 2.39
+runtime_floor    ldd (Ubuntu GLIBC 2.39-0ubuntu8.12) 2.39
 consume_with     build/Makefile.linux
